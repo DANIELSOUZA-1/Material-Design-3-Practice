@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.intro-title {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.card {
+  background-color: #EFF6FF;
+  width: 23.75rem;
+  height: auto;
+  padding: 0.75rem 1rem;
+  border-radius: 28px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.75rem;
+}
+
+.sub-title {
+  color: #475569;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.25px;
+}
+
+.button-1 {
+  cursor: pointer;
+  border-radius: 2.5rem;
+  border: 0;
+  width: 5.5rem;
+  height: 2.5rem;
+  background-color: #DBEAFE;
+  font-weight: 600;
+  color: #1E3A8A;
+  transition: 0.2s;
+}
+
+.button-1:hover {
+  box-shadow: 0 12px 13px rgba(0,0,0,0.19);
+}
