@@ -3,6 +3,7 @@
 body {
   font-family: 'Readex Pro', sans-serif;
   font-style: normal;
+  background-color: #0c2850;
 }
 
 .intro {
@@ -14,12 +15,15 @@ body {
 .intro-title {
   font-weight: 600;
   font-size: larger;
+  color: #FFF;
 }
 
 .cards {
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
@@ -31,6 +35,7 @@ body {
   height: auto;
   padding: 0.75rem 1rem;
   border-radius: 28px;
+  overflow: hidden;
 }
 
 .title {
@@ -43,7 +48,6 @@ body {
 .sub-title {
   color: #475569;
   font-size: 1rem;
-  margin-bottom: 2.5rem;
   line-height: 1.25rem;
   letter-spacing: 0.25px;
 }
@@ -61,5 +65,55 @@ body {
 }
 
 .button-1:hover {
-  box-shadow: 0 12px 13px rgba(0,0,0,0.19);
+  box-shadow: 0.5px 1px 4px 0.2px  rgba(0,0,0,0.19)
+}
+
+.card-img-1 {
+  margin: -2rem -2rem 1rem -2rem;
+  width: 120%;
+  height: 197px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.mb-2half {
+  margin-bottom: 2.5rem;
+}
+
+.mb-1half {
+  margin-bottom: 1.5rem;
+}
+
+.input-number {
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 5.5rem;
+  background-color: #DBEAFE;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.span-value {
+  color: #1E3A8A;
+  font-weight: 500;
+  font-size: 11px;
+  justify-self: center;
+}
+
+.add-icon {
+  width: 13px;
+  height: 1px;
+}
+
+
+
+footer {
+  background-color: #0c2850;
+  height: 5rem;
 }
